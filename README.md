@@ -1,0 +1,2 @@
+# Simple-Paint-App-Using-Javascript
+App is written using Plain JavaScript and HTML - no third party libraries like KineticJS or jQuery is used. A Simple Paint App using HTML5 Canvas Element that lets users to draw Triangles on the canvas by clicking &amp; dragging the mouse - like in Windows Paint App. Size of Triangles should depend on how much the user drags the mouse. Automatically fill each Triangle with a different color. Add a clear / reset button that clears the canvas.
