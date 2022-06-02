@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
 <title>Simple Paint App</title>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="draw_triangle.js"></script>
 </head>
-<body>
-	
-	<h1 id="heading">Simple Paint App</h1>
-	<canvas id="myCanvas" width="800" height="500" style="border:1px solid #000000;">
-	Your browser does not support the HTML5 canvas tag.
-	</canvas>
 
+<body>
+	<div class="controls">
+		<div class="title">Paint App</div>
+		<div class="color">
+			<label for="pen-color">Color</label>
+			<input type="color" name="color" id="pen-color">
+		</div>
+		<div id="canvas-wrapper"></div>
+		<div class="options">
+			<input type="button" value="Circle">
+			<input type="button" value="Triangle">
+			<input type="button" value="Square">
+		</div>
+	</div>
 </body>
+
 </html>
