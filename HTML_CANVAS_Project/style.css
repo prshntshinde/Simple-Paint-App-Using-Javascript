@@ -1,17 +1,32 @@
-#heading{
-	text-align: center;
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
-#myCanvas{
-	margin: auto;
-	display: block;
-	position: absolute;
-	padding: 0;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 
+body {
+	background-color: darkgrey;
 }
-/*body {
-	background-color: white;
-}*/
+
+.controls {
+	height: 50px;
+	display: flex;
+	background: #000;
+	align-items: center;
+	padding: 0px 15px;
+}
+
+.title {
+	color: aqua;
+}
+
+.color {
+	padding: 0px 15px;
+	align-items: center;
+}
+
+label {
+	color: aqua;
+	align-items: center;
+}
+
