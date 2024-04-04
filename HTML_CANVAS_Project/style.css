@@ -1,32 +1,36 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .controls {
-	height: 50px;
-	display: flex;
-	background: #000;
-	align-items: center;
-	padding: 0px 15px;
+  height: 50px;
+  display: flex;
+  background: #000;
+  align-items: center;
+  padding: 0px 15px;
 }
 
 .title {
-	color: aqua;
+  color: aqua;
 }
 
 .color {
-	padding: 0px 15px;
-	align-items: center;
+  padding: 0px 15px;
+  align-items: center;
 }
 
 label {
-	color: aqua;
-	align-items: center;
+  color: aqua;
+  align-items: center;
 }
 
+canvas {
+  margin-top: 500px;
+  border: 1px solid black;
+}

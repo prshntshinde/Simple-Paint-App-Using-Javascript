@@ -4,7 +4,7 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="draw_triangle.js"></script>
+	
 </head>
 
 <body>
@@ -14,13 +14,16 @@
 			<label for="pen-color">Color</label>
 			<input type="color" name="color" id="pen-color">
 		</div>
-		<div id="canvas-wrapper"></div>
+		<div id="canvas-wrapper">
+			<canvas id="canvas" width="600" height="400"></canvas>
+		</div>
 		<div class="options">
-			<input type="button" value="Circle">
-			<input type="button" value="Triangle">
-			<input type="button" value="Square">
+			<input type="button" value="Triangle" onclick=drawTriangle();>
+			<input type="button" value="Circle" onclick=drawCircle();>
+			<input type="button" value="Fill">
+			<input type="button" value="Reset" onclick=resetCanvas();>
 		</div>
 	</div>
 </body>
-
+<script type="text/javascript" src="draw_triangle.js"></script>
 </html>
